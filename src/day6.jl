@@ -34,7 +34,6 @@ function UpdateDDict!(ddict::Dict)
     end
 end
 
-
 function Part2(data::Array)
     # store data in a dictionary
     ddict = Dict([(i, count(x -> x==i, data)) for i = 0:8])
