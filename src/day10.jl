@@ -5,6 +5,7 @@ function ReadData(fname::AbstractString)
     return data
 end
 
+# useful constants
 const openers = ['(', '[', '{', '<']
 const closers = Dict([(')','('), (']','['), ('}','{'), ('>','<')])
 const errorScores  = Dict([(')',3), (']',57), ('}',1197), ('>',25137)])
