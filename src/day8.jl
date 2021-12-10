@@ -148,7 +148,7 @@ function Part2(entries::AbstractArray)
     return total
 end
 
-data = ReadData("../data/test8.txt")
+#data = ReadData("../data/test8.txt")
 data = ReadData("../data/day8.txt")
 
 
